@@ -1,0 +1,27 @@
+<html>
+
+<title>
+
+</title>
+
+<body>
+
+<table border="2px">
+    <tr>
+        <td>NAME</td>
+        <td></td>
+    </tr>
+    {{#each data}}
+    <tr>
+        <td>
+            <input type="text" name="name" value="{{this.name}}">
+        </td>
+        <td>
+            <input type="submit" value="UPDATE">
+        </td>
+    </tr>
+    {{/each}}
+</table>
+
+</body>
+</html>
