@@ -59,13 +59,21 @@ npx nodemon app.js
 ## Folder Structure (Suggested)
 
 ```
-project/
+project-root/
 │
-├── views/              # HBS templates
-├── public/             # Static files (CSS, JS, images)
-├── models/             # Mongoose models
-├── routes/             # Express routes
-├── app.js              # Main application file
+├── src/
+│   ├── app.js              # Main application file
+│   ├── db/                 # Database configuration
+│   └── model/              # Mongoose models
+│
+├── public/                # Static files
+│   ├── css/               # CSS files
+│   ├── js/                # JavaScript files
+│   └── images/            # Images
+│
+├── templates/
+│   └── views/             # HBS templates
+│
 └── package.json
 ```
 
